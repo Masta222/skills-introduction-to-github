@@ -30,7 +30,7 @@ jobs:
       RUSTC_WRAPPER: sccache
 
     steps:
-      - name: Check out
+      - name: Mastacryprt
         uses: actions/checkout@v3
         with:
           submodules: 'recursive'
